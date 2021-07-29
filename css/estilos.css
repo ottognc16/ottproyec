@@ -1,0 +1,40 @@
+  
+
+  @import url('https://fonst.gogleapis.com/css2?family=Montserrat&display=swao');
+
+
+body{
+    font-family: 'Montserrat' seans-serif;
+     overflow-x: hidden;
+
+}
+
+#navegador li > a{
+font-size: 18px;
+font-weight: bold;
+color: #3f3f3f;
+}
+
+#navegador form > button{
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-item{
+    max-height: 39rem;
+   
+}
+
+
+
+
+
+
+
+@media ( max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+
+}
