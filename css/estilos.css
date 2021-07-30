@@ -33,8 +33,20 @@ color: #3f3f3f;
 
 
 @media ( max-width:768px){
-    #intro{
+    #intro, #equipo{
         width: 90% !important;
     }
+   .servicio-fila{
+       width: 100%; !777important;
+       text-align: center;
+   }
 
+}
+
+@media (max-width: 576px){
+    .icono-wrp{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    
 }
