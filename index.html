@@ -1,137 +1,168 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css"> 
-    <title> study channel</title>
-  
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/estilos.css"> 
+      <title> study channel</title>
+    
 
 
-</head>
-  <body>
-   <!--Encabezado uwu-->
-   <header class="container-fluid  bg-primary justify-content-center">
-    <!--navegador-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary p-3" id="navegador">
-        <div class="container-fluid w-100 d-flex justify-content-between">
-          <a class="navbar-brand text-light" href="#">students</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#">Equipo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#">contacto</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="email" placeholder="Correo electronico" aria-label="email">
-              <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribete</button>
-            </form>
+  </head>
+    <body>
+    <!--Encabezado uwu-->
+    <header class="container-fluid  bg-primary justify-content-center">
+      <!--navegador-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary p-3" id="navegador">
+          <div class="container-fluid w-100 d-flex justify-content-between">
+            <a class="navbar-brand text-light" href="#">students</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Equipo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">contacto</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="email" placeholder="Correo electronico" aria-label="email">
+                <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribete</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+      <!--carrucel uwu-->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-interval="3000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img1.jpg" class="d-block w-100" alt="Slide1">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img2.jpg" class="d-block w-100" alt="Slide2">
+          </div>
+          <div class="carousel-item">
+            <img src="img/img3.jpg" class="d-block w-100" alt="Slide3">
           </div>
         </div>
-      </nav>
-   </header>
-
-    <!--carrucel uwu-->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-interval="3000">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/img1.jpg" class="d-block w-100" alt="Slide1">
-        </div>
-        <div class="carousel-item">
-          <img src="img/img2.jpg" class="d-block w-100" alt="Slide2">
-        </div>
-        <div class="carousel-item">
-          <img src="img/img3.jpg" class="d-block w-100" alt="Slide3">
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
 
-    <!--inicio uwu-->
+      <!--inicio uwu-->
 
-    <section class="w-50 mx-auto text-center pt-5" id="intro">
-      <h1 class="p-3 fs-2 border-top border-3"> work plan for students<span class="text-prymary"> plan de estudio</span></h1>
+      <section class="w-50 mx-auto text-center pt-5" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3"> work plan for students<span class="text-prymary"> plan de estudio</span></h1>
+        
+        <p class="p-3 fs-4"> Modern mechanics includes the evolution of physical systems more general than mass bodies. In this approach, mechanics also studies the equations of temporal evolution of physical systems such as electromagnetic fields or quantum systems where it is not properly correct to speak of physical bodies.<span class="text-prymary"> study channel</span></p>
+      </section>
+
+      <!--columnas uwu-->
+      <section class="container-fluid">
+        <div class="row w-75 mx-auto  servicio-fila">
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap align-items-center flex-column flex-md-row">
+            <img src="./img/img5.jpg" alt="desarrollo" width="180" height="160">
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1"> Desarrollo del estudiante</h3>
+              <p class="px-4"> Finalmente, el desarrollo de la mecánica quántica es quizás uno de los más
+              grandes logros intelectuales del siglo XX.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap align-items-center flex-column flex-md-row">
+            <img src="./img/img4.jpg" alt="desarrollo" width="180" height="160">
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1"> Desarrollo del estudiante</h3>
+              <p class="px-4"> Finalmente, el desarrollo de la mecánica quántica es quizás uno de los más
+              grandes logros intelectuales del siglo XX.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row w-75 mx-auto  servicio-fila">
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap align-items-center flex-column flex-md-row">
+            <img  src="./img/img8.jpg" alt="desarrollo" width="180" height="160">
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1"> Desarrollo del estudiante</h3>
+              <p class="px-4"> Finalmente, el desarrollo de la mecánica quántica es quizás uno de los más
+              grandes logros intelectuales del siglo XX.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap align-items-center flex-column flex-md-row">
+            <img src="./img/img9.jpg" alt="desarrollo" width="180" height="160">
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1"> Desarrollo del estudiante</h3>
+              <p class="px-4"> Finalmente, el desarrollo de la mecánica quántica es quizás uno de los más
+              grandes logros intelectuales del siglo XX.</p>
+            </div>
+          </div>
+        </div>
+      </section> 
       
-      <p class="p-3 fs-4"> Modern mechanics includes the evolution of physical systems more general than mass bodies. In this approach, mechanics also studies the equations of temporal evolution of physical systems such as electromagnetic fields or quantum systems where it is not properly correct to speak of physical bodies.<span class="text-prymary"> study channel</span></p>
-    </section>
-
-    <!--columnas uwu-->
-    <section class="container-fluid">
-      <div class="row w-75 mx-auto  servicio-fila">
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap align-items-center flex-column flex-md-row">
-          <img src="./img/img5.jpg" alt="desarrollo" width="180" height="160">
-          <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1"> Desarrollo del estudiante</h3>
-            <p class="px-4"> Finalmente, el desarrollo de la mecánica quántica es quizás uno de los más
-             grandes logros intelectuales del siglo XX.</p>
-          </div>
-         </div>
-         <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap align-items-center flex-column flex-md-row">
-          <img src="./img/img4.jpg" alt="desarrollo" width="180" height="160">
-          <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1"> Desarrollo del estudiante</h3>
-            <p class="px-4"> Finalmente, el desarrollo de la mecánica quántica es quizás uno de los más
-             grandes logros intelectuales del siglo XX.</p>
-          </div>
-         </div>
+      <!--nosotros-->
+      <section>
+      <div class="w-75 m-auto text-center " id="equipo">
+        <h1 class="mb-5 fs-2">equipo pequeño con<samp class="text-primary"> Resultados grandes</samp></h1>
+        <p class="fs-4">
+          Siempre buscamos a los estudiantes adecuados para que estudien con mosotros.
+          Si te sientes listo para el reto, te espramos para que te unas a nosotros. 
+        </p>
+        <div class="mt-5 text-center ">
+          <img class="img-fluid" src="./img/img7.jpg" alt=" nosotros" width="700" height="300">
+        </div>
       </div>
-      <div class="row w-75 mx-auto  servicio-fila">
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap align-items-center flex-column flex-md-row">
-          <img  src="./img/img8.jpg" alt="desarrollo" width="180" height="160">
-          <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1"> Desarrollo del estudiante</h3>
-            <p class="px-4"> Finalmente, el desarrollo de la mecánica quántica es quizás uno de los más
-             grandes logros intelectuales del siglo XX.</p>
-          </div>
-         </div>
-         <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap align-items-center flex-column flex-md-row">
-          <img src="./img/img9.jpg" alt="desarrollo" width="180" height="160">
-          <div>
-            <h3 class="fs-5 mt-4 px-4 pb-1"> Desarrollo del estudiante</h3>
-            <p class="px-4"> Finalmente, el desarrollo de la mecánica quántica es quizás uno de los más
-             grandes logros intelectuales del siglo XX.</p>
-          </div>
-         </div>
-      </div>
-    </section> 
-     
-    <!--nosotros-->
-    <section>
-     <div class="w-50 m-auto text-center " id="equipo">
-       <h1 class="mb-5 fs-2">equipo pequeño con<samp class="text-primary"> Resultados grandes</samp></h1>
-       <p class="fs-4">
-        Siempre buscamos a los estudiantes adecuados para que estudien con mosotros.
-        Si te sientes listo para el reto, te espramos para que te unas a nosotros. 
-       </p>
-       <div class="mt-5 text-center ">
-         <img class="img-fluid" src="./img/img7.jpg" alt=" nosotros" width="700" height="300">
-       </div>
-     </div>
-    </section>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+        <div id="local" class="border-top border-2">
+          <div class="mapa"> <img src="img/img10.png" alt="mapa"></div>
+          <div id="wraper">
+            <h2> Ubicacion en San pablo Jocopilas Suchitepeques</h2>
+            <h2 class="text-primarty mb-4" id="typewriter"></h2>
+            <p class="fs-5 text-body">
+             Podras encontrar una de las mejores 
+             experiencias al visitarnos ya que poseemos 
+             un lugar agaradable donde nuestras instalaciones 
+             estan en optimas condiciones y a la dispocision de tu servicio
+
+            </p>
+            <section class="d-flex" id="numeros-local">
+              <div>
+                <p class="text-primary fs-5">248</p>
+                <p>Dias de sol</p>
+              </div>
+              <div>
+                <p class="text-primary  fs-5">100% </p>
+                <p> Aprobado</p>
+              </div>
+              <div>
+                <p class="text-primary  fs-5"> 25°C</p>
+                <p> Temperatura </p>
+              </div>
+            </section>
+          </div>
+      </div>
+      </section>
    
-  </body>
-</html>
+     
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+      <script src="main.js"></script>
+        <!--nosotros-->
+    
+    </body>
+  </html>
 
-
-Finalmente, el desarrollo de la mecánica quántica es quizás uno de los más grandes logros intelectuales del siglo XX.
